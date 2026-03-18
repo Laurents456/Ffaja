@@ -1,15 +1,14 @@
 {
   "version": 2,
-  "headers": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "headers": [
-        { "key": "Access-Control-Allow-Origin", "value": "*" },
-        { "key": "Content-Type", "value": "application/json" }
-      ]
+      "src": "/(.*)",
+      "dest": "/index.json",
+      "headers": {
+        "cache-control": "s-maxage=0, stale-while-revalidate",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*"
+      }
     }
-  ],
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.json" }
   ]
 }
