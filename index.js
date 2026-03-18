@@ -2,12 +2,12 @@
   "verAddr": "https://ffaja.vercel.app/",
   "resetGuest": true,
   "status": "VIP_PREMIUM_ACTIVE",
-  "features": {
+  "config": {
     "unlock_all_skins": true,
     "unlock_all_emotes": true,
     "unlock_all_weapons": true,
-    "bypass_security": "enabled_v5",
-    "visual_skin_enable": 1
+    "bypass_version_check": true,
+    "server_id": "LRN_V1"
   },
-  "msg": "LRN v1.1.1 - FIX 404 UNTUK BOCAH TOLOL"
+  "msg": "FIX 404 BY LRN - LAURENTS IS GOD"
 }
